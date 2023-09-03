@@ -2,10 +2,25 @@
 
 body{
   font-family: 'Sansita Swashed', cursive;
-  margin: 0;
+}
+
+.liam_contact_info{
+  display:flex;
+  justify-content: center;
+}
+
+.liam_contact_info #phone_num{
+  border-right: 2px dotted #4169e1;
+  padding-right: 10px;
+}
+
+.liam_contact_info #email_addr{
+  padding-left: 10px;
 }
 
 .nav{
+  position: sticky;
+  top: 0;
   background-color: #4169e1;
   color: whitesmoke;
   display: flex;
@@ -37,3 +52,49 @@ body{
 .nav li:hover{
   background-color: #7f96d8;
 }
+
+
+#resume-title{
+  display: flex;
+  justify-content: center;
+  color: #4169e1;
+}
+
+#resume{
+  width: 100%;
+  height: 600px;
+}
+
+#cont_title{
+  display: flex;
+  justify-content: center;
+  color: #4169e1;
+}
+
+#contact_form_container{
+  background-color: #4169e1;
+  height: 300px;
+  width: 300px;
+  display: block;
+  margin: auto;
+  padding: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+}
+
+#contact_form_container label{
+  color:whitesmoke;
+  display: block;
+}
+
+#contact_form_container input{
+  font-family: 'Sansita Swashed', cursive;
+  display: block;
+  font-size: large;
+}
+
+#contact_form_container textarea{
+  width: 250px;
+}
+

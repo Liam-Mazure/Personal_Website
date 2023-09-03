@@ -1,22 +1,23 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Navbar(){
     return(
         <nav className = "nav">
-            <a href = "/" className = "siteTitle">Liam Mazure</a>
+            <Link to = "/" className = "siteTitle">Liam Mazure</Link>
 
             <ul classname = "active">
                 <li>
-                    <a href = "/projects">Projects</a>
+                    <Link to = "/projects">Projects</Link>
                 </li>
                 <li>
-                    <a href = "/about">About Liam</a>
+                    <Link to = "/about">About Liam</Link>
                 </li>
                 <li>
-                    <a href = "/resume">Resume</a>
+                    <Link to = "/resume">Resume</Link>
                 </li>
                 <li>
-                    <a href = "/contact">Contact</a>
+                    <Link to = "/contact">Contact</Link>
                 </li>
             </ul>
         </nav>
