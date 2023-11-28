@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Personal_Website/static/css/main.debbce85.css",
-    "main.js": "/Personal_Website/static/js/main.bd146d04.js",
+    "main.css": "/Personal_Website/static/css/main.bdb3f6ea.css",
+    "main.js": "/Personal_Website/static/js/main.3900a2af.js",
     "static/js/787.749b4a44.chunk.js": "/Personal_Website/static/js/787.749b4a44.chunk.js",
     "static/media/FoxGame_Rockslide.mp4": "/Personal_Website/static/media/FoxGame_Rockslide.3291eb41dce807eff506.mp4",
     "static/media/FoxGame_FamilyReunion.mp4": "/Personal_Website/static/media/FoxGame_FamilyReunion.516bf962faae668cb2eb.mp4",
@@ -16,6 +16,7 @@
     "static/media/running_guide_log1.png": "/Personal_Website/static/media/running_guide_log1.2ee00cb1cead134a3592.png",
     "static/media/running_guide_createPlan.png": "/Personal_Website/static/media/running_guide_createPlan.3f425e75843770df9be0.png",
     "static/media/LiamGrace_ParkerWedding.jpg": "/Personal_Website/static/media/LiamGrace_ParkerWedding.849ef2a0e2581a4dc91a.jpg",
+    "static/media/TillyDaVinci_YingYang.jpg": "/Personal_Website/static/media/TillyDaVinci_YingYang.1856dc3d4232cb2a8c47.jpg",
     "static/media/DetMarathon_21.jpg": "/Personal_Website/static/media/DetMarathon_21.5e997ac1634cb723ad34.jpg",
     "static/media/ARCore_PlaceFigures1.jpg": "/Personal_Website/static/media/ARCore_PlaceFigures1.80a43501333cb01b8dfc.jpg",
     "static/media/ARCore_PlaceFigures2.jpg": "/Personal_Website/static/media/ARCore_PlaceFigures2.f1d58c1ebeaec043d9e3.jpg",
@@ -26,12 +27,12 @@
     "static/media/FoxGame-Boulder.jpg": "/Personal_Website/static/media/FoxGame-Boulder.0d6e851b8ec5bcbf1d9b.jpg",
     "static/media/Headshot.jpg": "/Personal_Website/static/media/Headshot.dc2ba951704faec5683a.jpg",
     "index.html": "/Personal_Website/index.html",
-    "main.debbce85.css.map": "/Personal_Website/static/css/main.debbce85.css.map",
-    "main.bd146d04.js.map": "/Personal_Website/static/js/main.bd146d04.js.map",
+    "main.bdb3f6ea.css.map": "/Personal_Website/static/css/main.bdb3f6ea.css.map",
+    "main.3900a2af.js.map": "/Personal_Website/static/js/main.3900a2af.js.map",
     "787.749b4a44.chunk.js.map": "/Personal_Website/static/js/787.749b4a44.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.debbce85.css",
-    "static/js/main.bd146d04.js"
+    "static/css/main.bdb3f6ea.css",
+    "static/js/main.3900a2af.js"
   ]
 }
