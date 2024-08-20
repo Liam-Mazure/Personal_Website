@@ -26,6 +26,7 @@ body{
   display: flex;
   justify-content: space-around;
   align-items: stretch;
+  z-index: 1;
 }
 
 .siteTitle{
@@ -61,6 +62,19 @@ body{
   border-radius: 6px;
 }
 
+@keyframes fade_in {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+#homePage{
+  
+}
+
 #home_title{
   display: flex;
   justify-content: center;
@@ -69,35 +83,93 @@ body{
   color: #4169e1;
 }
 
-#intro_home_text{
-  display: flex;
-  justify-content: center;
-  margin: 50px;
-  padding: 10px;
-  background-color: #4169e1;;
-  border-radius: 10px;
-  color:white;
+/*@keyframes btn_slide{
+  from{
+    transform: translateX(-500px);
+  }
+  to{
+    transform: translateX(0);
+  }
+}*/
+
+#home_introImg{
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
-#intro_pro_text{
-  display: flex;
-  justify-content: center;
-  margin: 50px;
-  padding: 10px;
-  background-color: #4169e1;;
-  border-radius: 10px;
-  color:white;
+.home_title{
+  position: absolute;
+  top: 70%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: rgb(0, 0, 0, .5);
+  border-radius: 1rem;
 }
 
-.home_btns{
-  margin-left: 35%;
-  width: 30%;
+#home_nameTitle{
+  color: #4169e1;
+  font-size: 5rem;
+  text-shadow: 2px 3px white;
+}
+
+#home_rhyme{
+  color: #4169e1;
+  font-size: 3rem;
+  text-shadow: 2px 3px white;
+}
+
+.homeTitle_btn{
+  width: 5rem;
   text-decoration: none;
   background-color: #4169e1;
   color: white;
   border-radius: 10px;
-  padding: 10px;
-  transition-duration: 0.4s;
+  padding: 1rem;
+  margin: 2rem;
+
+}
+
+.homeTitle_btn:hover{
+  background-color: white;
+  color: #4169e1;
+}
+
+#homeTitle_btnContainer{
+  display: flex;
+  justify-content: space-around;
+}
+
+.home_aboutContainer{  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: black;
+  padding: 1rem;
+}
+
+.home_imgContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left:.5rem;
+  padding-right:.5rem;
+}
+
+.home_imgItem{
+  width: 32%;
+  height: auto;
+  margin: .5rem;
+}
+
+#home_aboutBtn{
+  position:relative;
+  left: 50%;
+  transform: translate(-100%);
 }
 
 .home_btns:hover{
@@ -113,6 +185,9 @@ body{
   background-color: #4169e1;;
   border-radius: 10px;
   color:white;
+  animation: fade_in linear both;
+  animation-timeline: view();
+  animation-range: entry 20% cover 50%;
 }
 
 #intro_resume_text{
@@ -123,6 +198,9 @@ body{
   background-color: #4169e1;;
   border-radius: 10px;
   color:white;
+  animation: fade_in linear both;
+  animation-timeline: view();
+  animation-range: entry 20% cover 50%;
 }
 
 #intro_contact_text{
@@ -133,6 +211,9 @@ body{
   background-color: #4169e1;;
   border-radius: 10px;
   color:white;
+  animation: fade_in linear both;
+  animation-timeline: view();
+  animation-range: entry 50% cover 20%;
 }
 
 #about_title{
@@ -145,7 +226,6 @@ body{
 .about_container{
   display: flex;
   justify-content:center;
-  width: 100%;
   background-color: #4169e1;
   border-radius: 10px;
   padding: 20px;
@@ -154,19 +234,42 @@ body{
 
 .about_container img{
   width: 100%;
-  height: auto;
+}
+
+.about_container > *{
+  flex-basis: 100%;
 }
 
 .column_about_1{
-  justify-content: space-around;
-  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-end;
+  gap: 50px;
+}
+
+.column_about_1 > *{
+  flex: 1;
+}
+
+.about_row{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size:x-large;
 }
 
 .column_about_2{
-  justify-content: space-around;
-  padding-right: 10px;
-  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  padding-left: 10px;
   color: white;
+  gap: 50px
+}
+
+.column_about_2 > *{
+  flex: 1;
 }
 
 #resume-title{
@@ -237,8 +340,6 @@ body{
 }
 
 .text-window-1{
-  display: flex;
-  justify-content: center;
   margin: 20px;
   padding: 10px;
   background-color: #4169e1;
@@ -257,23 +358,20 @@ body{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 100%;
   background-color: #4169e1;
   border-radius: 10px;
   color: white;
-  padding: 20px;
+  padding: 10px;
   margin: 20px;
 }
 
 .pic-window-2 img,video{
-  width: 560px;
+  width: 500px;
   height: 315px;
   padding: 5px;
 }
 
 .text-window-2{
-  display: flex;
-  justify-content: center;
   margin: 20px;
   padding: 10px;
   background-color: #4169e1;
@@ -301,8 +399,6 @@ body{
 
 .pic-window-3{
   display: flex;
-  max-width: 1200px;
-  width: 100%;
   flex-wrap: wrap;
   justify-content: center;
   background-color: #4169e1;
@@ -336,8 +432,6 @@ body{
 
 .pic-window-4{
   display: flex;
-  max-width: 1200px;
-  width: 100%;
   flex-wrap: wrap;
   justify-content: center;
   background-color: #4169e1;
@@ -349,5 +443,11 @@ body{
   height: 500px;
   width: 300px;
   padding: 5px;
+}
+
+#contactForm_note{
+  display: flex;
+  justify-content: center;
+  color: red;
 }
 

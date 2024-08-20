@@ -6,7 +6,7 @@ import About from './components/about';
 import Resume from './components/resume';
 import Contact from './components/contact';
 import Home from './components/home';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes} from 'react-router-dom';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <Navbar />
       <div className = 'container'>
           <Routes>
-            <Route path='/home' element ={<Home/>} />
+            <Route exact path='/' element ={<Home/>} />
             <Route path='/projects' element ={<Projects/>} />
             <Route path='/about' element ={<About/>} />
             <Route path='/resume' element ={<Resume/>} />
@@ -23,7 +23,7 @@ function App() {
       </div>
       <Info/>
     </>
-  );
-};
+  )
+}
 
 export default App
