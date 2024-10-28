@@ -1,0 +1,73 @@
+{
+    "slidesAR":[
+        {
+            "src":"./images/ARCore_Initial.jpg",
+            "alt":"ARCore Initial Set Up"
+        },
+
+        {
+            "src":"./images/ARCore_PlaceFigures1.jpg",
+            "alt":"ARCore Two Models Placed"
+        },
+
+        {
+            "src":"./images/ARCore_PlaceFigures2.jpg",
+            "alt":"ARCore Additional Models Placed"
+        }
+
+    ],
+
+    "slidesRGWeb":[
+        {
+            "src":"./images/running_guide_home.png",
+            "alt":"Running Guide Home"
+        },
+
+        {
+            "src":"./images/running_guide_createPlan.png",
+            "alt":"Running Guide Plan Creation"
+        },
+
+        {
+            "src":"./images/running_guide_account.png",
+            "alt":"Running Guide Account"
+        },
+        {
+            "src":"./images/running_guide_calander.png",
+            "alt":"Running Guide Calander"
+        },
+        {
+            "src":"./images/running_guide_log1.png",
+            "alt":"Running Guide Log Note 1"
+        },
+        {
+            "src":"./images/running_guide_log2.png",
+            "alt":"Running Guide Log Note 2"
+        },
+        {
+            "src":"./images/running_guide_log3.png",
+            "alt":"Running Guide Log Note 3"
+        }
+    ],
+    
+    "foxVideos":[
+        {
+            "src":"./images/FoxGame_StartScreen.mp4",
+            "alt":"Fox Game Start Screen"
+
+        },
+        {
+            "src":"./images/FoxGame_FruitCollection.mp4",
+            "alt":"Fox Game Fruit Collection"
+        },
+        {
+            "src":"./images/FoxGame_Rockslide.mp4",
+            "alt":"Fox Game Rock Slide"
+        },
+        {
+            "src":"./images/FoxGame_FamilyReunion.mp4",
+            "alt":"Fox Game Family Reunion"
+        }
+    ]
+
+}

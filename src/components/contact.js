@@ -31,8 +31,9 @@ function Contact(){
     };
 
     return(
-        <div>
-            <h1 id = "cont_title">Send Me A Message</h1>
+        <div className="contact_total">
+
+            <h1 id = "cont_title">Send A Message</h1>
             <form id = "contact_form_container" onSubmit={handleSubmit}>
                 <label >Name: </label>
                 <input type = "text" name = "name" value={formData.name} onChange={handleChange} required></input>
@@ -43,7 +44,7 @@ function Contact(){
                 <label >Message: </label>
                 <textarea  rows={4} name="message" value={formData.message} onChange={handleChange} required></textarea>
 
-                <input type = "submit"></input>
+                <input id = "sub_btn" type = "submit"></input>
 
             </form>
             <p id = "contactForm_note"></p>

@@ -7,12 +7,14 @@ import Resume from './components/resume';
 import Contact from './components/contact';
 import Home from './components/home';
 import { Route, Routes} from 'react-router-dom';
+import ScrollToTop from './components/scrollToTop';
 
 function App() {
   return (
     <>
       <Navbar />
       <div className = 'container'>
+        <ScrollToTop/>
           <Routes>
             <Route exact path='/' element ={<Home/>} />
             <Route path='/projects' element ={<Projects/>} />

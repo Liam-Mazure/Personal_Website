@@ -11,7 +11,7 @@ function Home(){
 
             <div className="home_title">
                 <h1 id = "home_nameTitle">Liam Mazure</h1>
-                <h2 id = "home_rhyme">Come with me and you'll see a world of code that’s key, Logic flows and syntax glows, in harmony</h2>
+                <h2 id = "home_rhyme">Come with me and you'll see a world of code that’s key. Where logic flows and syntax glows, in harmony</h2>
 
                 <div className="homeTitle_btnContainer">
                     <Link to = "/projects">
