@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Personal_Website/static/css/main.d48b74bb.css",
-    "main.js": "/Personal_Website/static/js/main.252d4809.js",
+    "main.css": "/Personal_Website/static/css/main.94ebb481.css",
+    "main.js": "/Personal_Website/static/js/main.507e4477.js",
     "static/js/453.2ddb282f.chunk.js": "/Personal_Website/static/js/453.2ddb282f.chunk.js",
     "static/media/FoxGame_Rockslide.mp4": "/Personal_Website/static/media/FoxGame_Rockslide.3291eb41dce807eff506.mp4",
     "static/media/FoxGame_FamilyReunion.mp4": "/Personal_Website/static/media/FoxGame_FamilyReunion.516bf962faae668cb2eb.mp4",
@@ -46,12 +46,12 @@
     "static/media/Run_Wild_Logo_BlkBck.png": "/Personal_Website/static/media/Run_Wild_Logo_BlkBck.f55f0e9f1a86344ffad5.png",
     "static/media/Headshot.jpg": "/Personal_Website/static/media/Headshot.dc2ba951704faec5683a.jpg",
     "index.html": "/Personal_Website/index.html",
-    "main.d48b74bb.css.map": "/Personal_Website/static/css/main.d48b74bb.css.map",
-    "main.252d4809.js.map": "/Personal_Website/static/js/main.252d4809.js.map",
+    "main.94ebb481.css.map": "/Personal_Website/static/css/main.94ebb481.css.map",
+    "main.507e4477.js.map": "/Personal_Website/static/js/main.507e4477.js.map",
     "453.2ddb282f.chunk.js.map": "/Personal_Website/static/js/453.2ddb282f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d48b74bb.css",
-    "static/js/main.252d4809.js"
+    "static/css/main.94ebb481.css",
+    "static/js/main.507e4477.js"
   ]
 }
