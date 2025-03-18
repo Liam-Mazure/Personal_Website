@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Personal_Website/static/css/main.94ebb481.css",
-    "main.js": "/Personal_Website/static/js/main.507e4477.js",
+    "main.css": "/Personal_Website/static/css/main.5c33fd3e.css",
+    "main.js": "/Personal_Website/static/js/main.51dcd5b6.js",
     "static/js/453.2ddb282f.chunk.js": "/Personal_Website/static/js/453.2ddb282f.chunk.js",
     "static/media/FoxGame_Rockslide.mp4": "/Personal_Website/static/media/FoxGame_Rockslide.3291eb41dce807eff506.mp4",
     "static/media/FoxGame_FamilyReunion.mp4": "/Personal_Website/static/media/FoxGame_FamilyReunion.516bf962faae668cb2eb.mp4",
@@ -20,6 +20,7 @@
     "static/media/rockSit_glaciarNP.jpg": "/Personal_Website/static/media/rockSit_glaciarNP.b5d7fa5b18325a5db7c1.jpg",
     "static/media/Forrest_FogOverLake.jpg": "/Personal_Website/static/media/Forrest_FogOverLake.e29797f3077279a14b9a.jpg",
     "static/media/portfolioWebsite_selfPic.jpg": "/Personal_Website/static/media/portfolioWebsite_selfPic.e851a83d12a35d60516b.jpg",
+    "static/media/JeopardyStudyTool.mp4": "/Personal_Website/static/media/JeopardyStudyTool.d59541890493cdf00c7c.mp4",
     "static/media/running_guide_home.png": "/Personal_Website/static/media/running_guide_home.d2145618040ba81270ce.png",
     "static/media/running_guide_account.png": "/Personal_Website/static/media/running_guide_account.8075723d8b5b11655370.png",
     "static/media/GraceLiam_TC24.jpg": "/Personal_Website/static/media/GraceLiam_TC24.01e6597161453fd8d015.jpg",
@@ -42,16 +43,17 @@
     "static/media/Ironman_MI_Pic.jpg": "/Personal_Website/static/media/Ironman_MI_Pic.294f413c5c13b5e1e9ae.jpg",
     "static/media/forrest_background.jpg": "/Personal_Website/static/media/forrest_background.e6231d623581864b15b1.jpg",
     "static/media/FoxGame-Boulder.jpg": "/Personal_Website/static/media/FoxGame-Boulder.0d6e851b8ec5bcbf1d9b.jpg",
+    "static/media/JeopardyJsonDataPic.png": "/Personal_Website/static/media/JeopardyJsonDataPic.f4f2b372016b59e06fc0.png",
     "static/media/FoxGame-World.jpg": "/Personal_Website/static/media/FoxGame-World.79d925437e0387782e87.jpg",
     "static/media/Run_Wild_Logo_BlkBck.png": "/Personal_Website/static/media/Run_Wild_Logo_BlkBck.f55f0e9f1a86344ffad5.png",
     "static/media/Headshot.jpg": "/Personal_Website/static/media/Headshot.dc2ba951704faec5683a.jpg",
     "index.html": "/Personal_Website/index.html",
-    "main.94ebb481.css.map": "/Personal_Website/static/css/main.94ebb481.css.map",
-    "main.507e4477.js.map": "/Personal_Website/static/js/main.507e4477.js.map",
+    "main.5c33fd3e.css.map": "/Personal_Website/static/css/main.5c33fd3e.css.map",
+    "main.51dcd5b6.js.map": "/Personal_Website/static/js/main.51dcd5b6.js.map",
     "453.2ddb282f.chunk.js.map": "/Personal_Website/static/js/453.2ddb282f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.94ebb481.css",
-    "static/js/main.507e4477.js"
+    "static/css/main.5c33fd3e.css",
+    "static/js/main.51dcd5b6.js"
   ]
 }
